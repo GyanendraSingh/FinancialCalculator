@@ -27,6 +27,18 @@
 		84B87B6414B6F06800F04A43 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B6214B6F06800F04A43 /* InfoPlist.strings */; };
 		84B87B6614B6F06800F04A43 /* FinancialCalculatorTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B6514B6F06800F04A43 /* FinancialCalculatorTests.h */; };
 		84B87B6814B6F06800F04A43 /* FinancialCalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B87B6714B6F06800F04A43 /* FinancialCalculatorTests.m */; };
+		84B87B7314B6F37F00F04A43 /* retirement.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7114B6F37F00F04A43 /* retirement.jpeg */; };
+		84B87B7414B6F37F00F04A43 /* saving.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7214B6F37F00F04A43 /* saving.jpeg */; };
+		84B87B7714B6F38900F04A43 /* homeloan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7514B6F38900F04A43 /* homeloan.jpeg */; };
+		84B87B7814B6F38900F04A43 /* inflation.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7614B6F38900F04A43 /* inflation.jpeg */; };
+		84B87B7B14B6F5EB00F04A43 /* InflationCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B87B7A14B6F5EB00F04A43 /* InflationCalculator.m */; };
+		84B87B7D14B6F63500F04A43 /* inflation.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7C14B6F63500F04A43 /* inflation.xib */; };
+		84B87B7F14B6FBDF00F04A43 /* Saving.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B7E14B6FBDF00F04A43 /* Saving.xib */; };
+		84B87B8114B6FC1B00F04A43 /* homeloan.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B8014B6FC1B00F04A43 /* homeloan.xib */; };
+		84B87B8314B6FC4F00F04A43 /* Retirement.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84B87B8214B6FC4F00F04A43 /* Retirement.xib */; };
+		84B87B8614B6FCA300F04A43 /* SavingCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B87B8514B6FCA300F04A43 /* SavingCalculator.m */; };
+		84B87B8914B6FCBC00F04A43 /* HomeloanCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B87B8814B6FCBB00F04A43 /* HomeloanCalculator.m */; };
+		84B87B8C14B6FCD200F04A43 /* RetirementCalculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B87B8B14B6FCD100F04A43 /* RetirementCalculator.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +56,13 @@
 		84B87B2D14B6F06800F04A43 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84B87B2F14B6F06800F04A43 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84B87B3114B6F06800F04A43 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84B87B3514B6F06800F04A43 /* FinancialCalculator-Info.plist */ = {isa = PBXFileReference; path = "FinancialCalculator-Info.plist"; sourceTree = "<group>"; };
+		84B87B3514B6F06800F04A43 /* FinancialCalculator-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinancialCalculator-Info.plist"; sourceTree = "<group>"; };
 		84B87B3714B6F06800F04A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84B87B3914B6F06800F04A43 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84B87B3B14B6F06800F04A43 /* FinancialCalculator-Prefix.pch */ = {isa = PBXFileReference; path = "FinancialCalculator-Prefix.pch"; sourceTree = "<group>"; };
-		84B87B3C14B6F06800F04A43 /* FinancialCalculatorAppDelegate.h */ = {isa = PBXFileReference; path = FinancialCalculatorAppDelegate.h; sourceTree = "<group>"; };
+		84B87B3B14B6F06800F04A43 /* FinancialCalculator-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FinancialCalculator-Prefix.pch"; sourceTree = "<group>"; };
+		84B87B3C14B6F06800F04A43 /* FinancialCalculatorAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialCalculatorAppDelegate.h; sourceTree = "<group>"; };
 		84B87B3D14B6F06800F04A43 /* FinancialCalculatorAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialCalculatorAppDelegate.m; sourceTree = "<group>"; };
-		84B87B3F14B6F06800F04A43 /* RootViewController.h */ = {isa = PBXFileReference; path = RootViewController.h; sourceTree = "<group>"; };
+		84B87B3F14B6F06800F04A43 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		84B87B4014B6F06800F04A43 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		84B87B4214B6F06800F04A43 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
 		84B87B4414B6F06800F04A43 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
@@ -60,10 +72,26 @@
 		84B87B5014B6F06800F04A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DetailViewController_iPad.xib; sourceTree = "<group>"; };
 		84B87B5714B6F06800F04A43 /* FinancialCalculatorTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancialCalculatorTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84B87B5814B6F06800F04A43 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		84B87B6114B6F06800F04A43 /* FinancialCalculatorTests-Info.plist */ = {isa = PBXFileReference; path = "FinancialCalculatorTests-Info.plist"; sourceTree = "<group>"; };
+		84B87B6114B6F06800F04A43 /* FinancialCalculatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FinancialCalculatorTests-Info.plist"; sourceTree = "<group>"; };
 		84B87B6314B6F06800F04A43 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84B87B6514B6F06800F04A43 /* FinancialCalculatorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FinancialCalculatorTests.h; sourceTree = "<group>"; };
 		84B87B6714B6F06800F04A43 /* FinancialCalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FinancialCalculatorTests.m; sourceTree = "<group>"; };
+		84B87B7114B6F37F00F04A43 /* retirement.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = retirement.jpeg; path = ../../../retirement.jpeg; sourceTree = "<group>"; };
+		84B87B7214B6F37F00F04A43 /* saving.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = saving.jpeg; path = ../../../saving.jpeg; sourceTree = "<group>"; };
+		84B87B7514B6F38900F04A43 /* homeloan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = homeloan.jpeg; path = ../../../homeloan.jpeg; sourceTree = "<group>"; };
+		84B87B7614B6F38900F04A43 /* inflation.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = inflation.jpeg; path = ../../../inflation.jpeg; sourceTree = "<group>"; };
+		84B87B7914B6F5EA00F04A43 /* InflationCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InflationCalculator.h; sourceTree = "<group>"; };
+		84B87B7A14B6F5EB00F04A43 /* InflationCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InflationCalculator.m; sourceTree = "<group>"; };
+		84B87B7C14B6F63500F04A43 /* inflation.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = inflation.xib; sourceTree = "<group>"; };
+		84B87B7E14B6FBDF00F04A43 /* Saving.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Saving.xib; sourceTree = "<group>"; };
+		84B87B8014B6FC1B00F04A43 /* homeloan.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homeloan.xib; sourceTree = "<group>"; };
+		84B87B8214B6FC4F00F04A43 /* Retirement.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Retirement.xib; sourceTree = "<group>"; };
+		84B87B8414B6FCA300F04A43 /* SavingCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SavingCalculator.h; sourceTree = "<group>"; };
+		84B87B8514B6FCA300F04A43 /* SavingCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SavingCalculator.m; sourceTree = "<group>"; };
+		84B87B8714B6FCBB00F04A43 /* HomeloanCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeloanCalculator.h; sourceTree = "<group>"; };
+		84B87B8814B6FCBB00F04A43 /* HomeloanCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeloanCalculator.m; sourceTree = "<group>"; };
+		84B87B8A14B6FCD100F04A43 /* RetirementCalculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RetirementCalculator.h; sourceTree = "<group>"; };
+		84B87B8B14B6FCD100F04A43 /* RetirementCalculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RetirementCalculator.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +123,6 @@
 			isa = PBXGroup;
 			children = (
 				84B87B3314B6F06800F04A43 /* FinancialCalculator */,
-				84B87B5F14B6F06800F04A43 /* FinancialCalculatorTests */,
 				84B87B2C14B6F06800F04A43 /* Frameworks */,
 				84B87B2A14B6F06800F04A43 /* Products */,
 			);
@@ -133,8 +160,17 @@
 				84B87B4614B6F06800F04A43 /* RootViewController_iPhone.xib */,
 				84B87B4914B6F06800F04A43 /* RootViewController_iPad.xib */,
 				84B87B4C14B6F06800F04A43 /* DetailViewController_iPhone.xib */,
+				84B87B7914B6F5EA00F04A43 /* InflationCalculator.h */,
+				84B87B7A14B6F5EB00F04A43 /* InflationCalculator.m */,
+				84B87B8414B6FCA300F04A43 /* SavingCalculator.h */,
+				84B87B8514B6FCA300F04A43 /* SavingCalculator.m */,
+				84B87B8814B6FCBB00F04A43 /* HomeloanCalculator.m */,
+				84B87B8714B6FCBB00F04A43 /* HomeloanCalculator.h */,
+				84B87B8A14B6FCD100F04A43 /* RetirementCalculator.h */,
+				84B87B8B14B6FCD100F04A43 /* RetirementCalculator.m */,
 				84B87B4F14B6F06800F04A43 /* DetailViewController_iPad.xib */,
 				84B87B3414B6F06800F04A43 /* Supporting Files */,
+				84B87B5F14B6F06800F04A43 /* FinancialCalculatorTests */,
 			);
 			path = FinancialCalculator;
 			sourceTree = "<group>";
@@ -142,10 +178,18 @@
 		84B87B3414B6F06800F04A43 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				84B87B3514B6F06800F04A43 /* FinancialCalculator-Info.plist */,
+				84B87B7514B6F38900F04A43 /* homeloan.jpeg */,
+				84B87B7614B6F38900F04A43 /* inflation.jpeg */,
+				84B87B7114B6F37F00F04A43 /* retirement.jpeg */,
+				84B87B7214B6F37F00F04A43 /* saving.jpeg */,
 				84B87B3614B6F06800F04A43 /* InfoPlist.strings */,
+				84B87B3514B6F06800F04A43 /* FinancialCalculator-Info.plist */,
 				84B87B3914B6F06800F04A43 /* main.m */,
 				84B87B3B14B6F06800F04A43 /* FinancialCalculator-Prefix.pch */,
+				84B87B7C14B6F63500F04A43 /* inflation.xib */,
+				84B87B7E14B6FBDF00F04A43 /* Saving.xib */,
+				84B87B8014B6FC1B00F04A43 /* homeloan.xib */,
+				84B87B8214B6FC4F00F04A43 /* Retirement.xib */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -158,7 +202,7 @@
 				84B87B6014B6F06800F04A43 /* Supporting Files */,
 			);
 			path = FinancialCalculatorTests;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		84B87B6014B6F06800F04A43 /* Supporting Files */ = {
 			isa = PBXGroup;
@@ -242,6 +286,14 @@
 				84B87B4B14B6F06800F04A43 /* RootViewController_iPad.xib in Resources */,
 				84B87B4E14B6F06800F04A43 /* DetailViewController_iPhone.xib in Resources */,
 				84B87B5114B6F06800F04A43 /* DetailViewController_iPad.xib in Resources */,
+				84B87B7314B6F37F00F04A43 /* retirement.jpeg in Resources */,
+				84B87B7414B6F37F00F04A43 /* saving.jpeg in Resources */,
+				84B87B7714B6F38900F04A43 /* homeloan.jpeg in Resources */,
+				84B87B7814B6F38900F04A43 /* inflation.jpeg in Resources */,
+				84B87B7D14B6F63500F04A43 /* inflation.xib in Resources */,
+				84B87B7F14B6FBDF00F04A43 /* Saving.xib in Resources */,
+				84B87B8114B6FC1B00F04A43 /* homeloan.xib in Resources */,
+				84B87B8314B6FC4F00F04A43 /* Retirement.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +333,10 @@
 				84B87B3E14B6F06800F04A43 /* FinancialCalculatorAppDelegate.m in Sources */,
 				84B87B4114B6F06800F04A43 /* RootViewController.m in Sources */,
 				84B87B4514B6F06800F04A43 /* DetailViewController.m in Sources */,
+				84B87B7B14B6F5EB00F04A43 /* InflationCalculator.m in Sources */,
+				84B87B8614B6FCA300F04A43 /* SavingCalculator.m in Sources */,
+				84B87B8914B6FCBC00F04A43 /* HomeloanCalculator.m in Sources */,
+				84B87B8C14B6FCD200F04A43 /* RetirementCalculator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -476,6 +532,7 @@
 				84B87B6D14B6F06800F04A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84B87B6E14B6F06800F04A43 /* Build configuration list for PBXNativeTarget "FinancialCalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -484,6 +541,7 @@
 				84B87B7014B6F06800F04A43 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

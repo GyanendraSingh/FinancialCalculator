@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewController : UITableViewController
+@interface RootViewController : UITableViewController{
+    NSArray *calcList;
+    NSArray *imgList;
+  //  IBOutlet UITableView *tableView;
+    
+}
+
+@property(strong,nonatomic)NSArray *calcList;
+@property(strong,nonatomic)NSArray *imgList;
+//@property(strong, nonatomic)IBOutlet UITableView *tableView;
 
 @end
